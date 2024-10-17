@@ -1,0 +1,43 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "nodemon src/server.ts",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.0",
+    "@types/express-session": "^1.18.0",
+    "@types/http-errors": "^2.0.4",
+    "@types/morgan": "^1.9.9",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "eslint": "^8.30.0",
+    "globals": "^15.10.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.8.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^16.4.5",
+    "envalid": "^8.0.0",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "http-errors": "^2.0.0",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.0",
+    "morgan": "^1.10.0",
+    "run": "^1.5.0"
+  }
+}
